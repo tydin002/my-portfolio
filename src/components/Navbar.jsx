@@ -24,15 +24,15 @@ function Navbar() {
         <span className="nav-toggle-bar" />
       </button>
       <nav className={`nav-links ${open ? 'nav-links--open' : ''}`}>
-        <a href="#about" onClick={close}>
+        <Link to="/#about" onClick={close}>
           About
-        </a>
-        <a href="#projects" onClick={close}>
+        </Link>
+        <Link to="/#projects" onClick={close}>
           Projects
-        </a>
-        <a href="#contact" onClick={close}>
+        </Link>
+        <Link to="/#contact" onClick={close}>
           Contact
-        </a>
+        </Link>
         <Link to="/blog" onClick={close}>
           Blog
         </Link>

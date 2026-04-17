@@ -8,7 +8,7 @@ function Footer() {
     <footer className="site-footer">
       <div className="site-footer__inner">
         <p className="site-footer__copy">
-          © {year} {siteConfig.displayName}. Built with React & Vite.
+          © {year} {siteConfig.displayName} · made with React + Vite
         </p>
         <div className="site-footer__links">
           <Link to="/#about">About</Link>

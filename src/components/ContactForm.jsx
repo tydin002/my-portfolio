@@ -44,7 +44,7 @@ function ContactForm() {
       </button>
       {sent && (
         <p className="contact-form__thanks" role="status">
-          Thanks — I&apos;ll get back to you. (This form doesn&apos;t send email yet.)
+          Thanks! (FYI this form is front-end only — doesn&apos;t actually email me yet lol)
         </p>
       )}
     </form>
